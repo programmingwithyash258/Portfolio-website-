@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Portfolio</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    
+    .sidebar{
+      background-color: grey; 
+      width: 130px; 
+      height: 100vh;
+    }
+    
+    .sidebar nav{
+      padding: 15px; 
+    }
+    
+    .sidebar nav li{
+      list-style: none; 
+      font-size: 22px;
+      padding: 33px 0;
+    }
+    
+    .sidebar nav li a{
+      text-decoration: none; 
+      color: black; 
+    }
+    
+    .main{
+      /*background-color: yellow; */
+      width: 90vw; 
+    }
+    
+    .container{
+      display: flex;
+    }
+    
+    .infoConatiner{
+      /*background-color: rgb(202, 9, 128);*/
+      height: 60vh;
+      width: 80vw; 
+      margin: 80px auto; 
+      display: flex; 
+      justify-content: space-around;
+    }
+    
+    .devInfo{
+      display: flex;
+      justify-content: center; 
+      flex-direction: column;
+    }
+    
+    .hello{
+      font-size: 50px; 
+    }
+    
+    
+    .name{
+      font-size: 40px; 
+      font-weight: bold; 
+    }
+    
+    .about{
+      font-size: 20px;
+    }
+    
+    .devPic img{
+      height: 60vh; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/service.html">Service</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="infoConatiner">
+        <div class="devInfo">
+          <div class="hello">Hii I am</div>
+          <div class="name">Yash</div>
+          <div class="about">Game Developer, website Developer,  App Developer, and Programmer </div>
+          <details>
+            <summary>about more</summary>
+            <p>I am a developer and I am a youtuber and My two channels on youtube first channel name is ALL VIDEOS COMEDY, STUDY, TECHNICAL, GAMING and second channel name is ALL PROGRAM SOLUTION and I am live in delhi.</p>
+          </details>
+        </div>
+        <div class="devPic"><img src="YASH.png" alt="YASH photo"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
